@@ -1,0 +1,6 @@
+дек. 01, 2022 9:06:43 PM Seminars.Homework.Solve <init>
+INFO: Числа введены
+дек. 01, 2022 9:06:57 PM Seminars.Homework.Solve decision
+INFO: Операция сложения
+дек. 01, 2022 9:06:57 PM Seminars.Homework.Solve proverka
+INFO: Операция произведена
