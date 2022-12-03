@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    private static final Logger logger = LoggerFactory.getLogger(Main.class);
+    ///private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) throws IOException{
 
@@ -43,7 +43,7 @@ public class Main {
             names = new ArrayList<String>(Arrays.asList(file.list()));
             return names;
         } catch (NullPointerException nullPointerException) {
-            logger.error("Файлы не найдены в этой папке");
+///            logger.error("Файлы не найдены в этой папке");
         }
         return null;
     }
@@ -58,7 +58,7 @@ public class Main {
                 fileOutputStream.write(file.getBytes());
             }
         } catch (NullPointerException nullPointerException) {
-            logger.error("В предыдущем методе файл вернул null");
+///            logger.error("В предыдущем методе файл вернул null");
         }
     }
 }
